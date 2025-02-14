@@ -20,7 +20,7 @@ def get_supported_formats():
 class OpenAITTSProvider(BaseTTSProvider):
     def __init__(self, config: GeneralConfig):
         config.model_name = config.model_name or "tts-1"
-        config.voice_name = config.voice_name or "alloy"
+        config.voice_name = config.voice_name or "alloy" or "ash"
         config.output_format = config.output_format or "mp3"
 
         # per 1000 characters (0.03$ for HD model, 0.015$ for standard model)
