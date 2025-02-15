@@ -89,7 +89,7 @@ def handle_args():
         default=1,
         help="Specifies the number of parallel workers to use for audiobook generation. "
         "Increasing this value can significantly speed up the process by processing multiple chapters simultaneously. "
-        "Note: Chapters may not be processed in sequential order, but this will not affect the final audiobook.",
+        "Note: Chapters may not be processed in sequential order, but this will not affect the final audiobook. Noice",
     )
 
     parser.add_argument(
